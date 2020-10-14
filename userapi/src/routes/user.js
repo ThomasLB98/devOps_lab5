@@ -1,3 +1,4 @@
+
 const express = require('express')
 const userController = require('../controllers/user')
 
@@ -25,5 +26,5 @@ userRouter
   //   // TODO Create get method API
   //   const username = req.params.username
   // })
-  
+
 module.exports = userRouter
